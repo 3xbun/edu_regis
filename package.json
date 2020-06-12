@@ -44,6 +44,5 @@
   "devDependencies": {
     "gh-pages": "^3.0.0",
     "nodemon": "^2.0.4"
-  },
-  "proxy": "http://localhost:4000"
+  }
 }
