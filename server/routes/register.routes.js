@@ -12,7 +12,6 @@ router.route('/').get((req, res) => {
 });
 
 router.route('/').post((req, res) => {
-    // req.send("Cool")
     const name = req.body.name;
     const year = req.body.year;
     const amount = req.body.amount;
@@ -24,10 +23,5 @@ router.route('/').post((req, res) => {
             res.status(200).json("Entry added!");
         });
 })
-
-// router.post('/', (req, res) => {
-//     res.send(req.body);
-// });
-
 
 module.exports = router;

@@ -19,14 +19,12 @@ connection.once('open', function() {
 // Routes
 const registerRoute = require("./routes/register.routes");
 
-
-
 const router = require('express').Router();
 router.post('/', (req, res) => {
     res.send(req.body);
 });
 
-app.use('/', registerRoute)
+app.use('/api/register', registerRoute)
 
 app.listen(PORT, function() {
     console.log("Server is running on Port: " + PORT);
