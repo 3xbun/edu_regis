@@ -10,6 +10,9 @@ const registerSchema = new Schema({
   },
   amount: {
     type: Number,
+  },
+  conf: {
+    type: Boolean, default: false
   }
 });
 

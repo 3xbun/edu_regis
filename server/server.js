@@ -26,6 +26,8 @@ router.post('/', (req, res) => {
 
 app.use('/api/register', registerRoute)
 
+app.use(express.static('../build'));
+
 app.listen(PORT, function() {
     console.log("Server is running on Port: " + PORT);
 });
