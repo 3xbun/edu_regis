@@ -7,6 +7,7 @@ export default class Home extends Component {
     return (
       <div id="admin">
         <div className="container">
+          
           <h1>Admin Page</h1>
 
           <hr/>
