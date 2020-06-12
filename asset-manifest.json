@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/edu_regis/static/css/main.746b97d7.chunk.css",
-    "main.js": "/edu_regis/static/js/main.fcd6eae3.chunk.js",
-    "main.js.map": "/edu_regis/static/js/main.fcd6eae3.chunk.js.map",
+    "main.js": "/edu_regis/static/js/main.7105f03a.chunk.js",
+    "main.js.map": "/edu_regis/static/js/main.7105f03a.chunk.js.map",
     "runtime-main.js": "/edu_regis/static/js/runtime-main.3167e17b.js",
     "runtime-main.js.map": "/edu_regis/static/js/runtime-main.3167e17b.js.map",
     "static/js/2.7601d6e7.chunk.js": "/edu_regis/static/js/2.7601d6e7.chunk.js",
     "static/js/2.7601d6e7.chunk.js.map": "/edu_regis/static/js/2.7601d6e7.chunk.js.map",
     "index.html": "/edu_regis/index.html",
-    "precache-manifest.bfb3d28082e7c334b5fd7cd11fab0fe2.js": "/edu_regis/precache-manifest.bfb3d28082e7c334b5fd7cd11fab0fe2.js",
+    "precache-manifest.d1eee72b73c57df5f7276c5025e0162c.js": "/edu_regis/precache-manifest.d1eee72b73c57df5f7276c5025e0162c.js",
     "service-worker.js": "/edu_regis/service-worker.js",
     "static/css/main.746b97d7.chunk.css.map": "/edu_regis/static/css/main.746b97d7.chunk.css.map",
     "static/js/2.7601d6e7.chunk.js.LICENSE.txt": "/edu_regis/static/js/2.7601d6e7.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3167e17b.js",
     "static/js/2.7601d6e7.chunk.js",
     "static/css/main.746b97d7.chunk.css",
-    "static/js/main.fcd6eae3.chunk.js"
+    "static/js/main.7105f03a.chunk.js"
   ]
 }
