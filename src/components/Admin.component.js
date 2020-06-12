@@ -7,10 +7,9 @@ export default class Home extends Component {
     return (
       <div id="admin">
         <div className="container">
-          
-          <h1>Admin Page</h1>
+          <h1>Admin Tools</h1>
 
-          <hr/>
+          <hr />
           <table>
             <tr>
               <th>Name</th>
@@ -56,9 +55,9 @@ export default class Home extends Component {
             </tr>
           </table>
 
-          <a className="btn" href="/">
-            กลับหน้าหลัก
-          </a>
+          <Link to={`/`}>
+            <Button name="Logout" class="btn" />
+          </Link>
         </div>
       </div>
     );

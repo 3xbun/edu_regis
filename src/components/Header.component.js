@@ -1,13 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import Button from "./Button.component";
 import { Link } from "react-router-dom";
 
-import Register from "./Register.component";
-import Payment from "./Payment.component";
-import Status from "./Status.component";
-
-export default class Home extends Component {
-  render() {
+const Header = () => {
     return (
       <div>
         <header>
@@ -37,12 +32,9 @@ export default class Home extends Component {
               </ul>
             </nav>
           </div>
-
-          <div className="container">
-            { this.props.children }
-          </div>
         </header>
       </div>
     );
   }
-}
+
+export default Header;
