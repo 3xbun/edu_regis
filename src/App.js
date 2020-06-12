@@ -10,29 +10,33 @@ import Status from "./components/Status.component";
 import Admin from "./components/Admin.component";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      base_url: window.location.href
+    };
+  }
+
   render() {
-
-    if (window.location.pathname === '/admin') {
-      return <Admin />
+    if (window.location.pathname === "/admin") {
+      return <Admin />;
     } else
-    return (
-      <Router>
-        <Route path="/admin" component={Admin} />
-        <Header />
-        <div className="container">
-
-          <Route path="/" exact>
-            <h1>
-              โปรแกรมสำรองที่นั่งสุดเทพ
-            </h1>
-          </Route>
-          <Route path="/register" component={Register} />
-          <Route path="/payment_confirmation" component={Payment} />
-          <Route path="/status" component={Status} />
-
-        </div>
-      </Router>
-    );
+      return (
+        <Router>
+          <Route path="/admin" component={Admin} />
+          <Header />
+          <div className="container">
+            <Route path="/" exact>
+              <h1>โปรแกรมสำรองที่นั่งสุดเทพ</h1>
+              {this.base_url}
+            </Route>
+            <Route path="/register" component={Register} />
+            <Route path="/payment_confirmation" component={Payment} />
+            <Route path="/status" component={Status} />
+          </div>
+        </Router>
+      );
   }
 }
 

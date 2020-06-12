@@ -47,6 +47,7 @@ header {
     margin: 0 auto;
     width: 95vw;
     padding: 1em;
+    max-width: 700px;
 }
 
 .logo {
