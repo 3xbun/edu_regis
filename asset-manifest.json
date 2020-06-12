@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/edu_regis/static/css/main.eb3e2a42.chunk.css",
+    "main.js": "/edu_regis/static/js/main.980defcf.chunk.js",
+    "main.js.map": "/edu_regis/static/js/main.980defcf.chunk.js.map",
+    "runtime-main.js": "/edu_regis/static/js/runtime-main.3167e17b.js",
+    "runtime-main.js.map": "/edu_regis/static/js/runtime-main.3167e17b.js.map",
+    "static/js/2.2f97e399.chunk.js": "/edu_regis/static/js/2.2f97e399.chunk.js",
+    "static/js/2.2f97e399.chunk.js.map": "/edu_regis/static/js/2.2f97e399.chunk.js.map",
+    "index.html": "/edu_regis/index.html",
+    "precache-manifest.d9908fdd6dc2845ae16c3970c7eff651.js": "/edu_regis/precache-manifest.d9908fdd6dc2845ae16c3970c7eff651.js",
+    "service-worker.js": "/edu_regis/service-worker.js",
+    "static/css/main.eb3e2a42.chunk.css.map": "/edu_regis/static/css/main.eb3e2a42.chunk.css.map",
+    "static/js/2.2f97e399.chunk.js.LICENSE.txt": "/edu_regis/static/js/2.2f97e399.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3167e17b.js",
+    "static/js/2.2f97e399.chunk.js",
+    "static/css/main.eb3e2a42.chunk.css",
+    "static/js/main.980defcf.chunk.js"
+  ]
+}
