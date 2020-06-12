@@ -19,7 +19,6 @@
     "heroku-prebuild": "cd server && npm install",
     "client": "npm start",
     "server": "nodemon ./server/server.js",
-    "heroku-postbuild": "concurrently \"npm run server\" \"npm run client\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
