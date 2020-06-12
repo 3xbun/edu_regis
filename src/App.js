@@ -7,13 +7,19 @@ import Header from "./components/Header.component";
 import Register from "./components/Register.component";
 import Payment from "./components/Payment.component";
 import Status from "./components/Status.component";
+import Admin from "./components/Admin.component";
 
 class App extends Component {
   render() {
+
+    if (window.location.pathname === '/admin') {
+      return <Admin />
+    } else
     return (
       <Router>
+        <Route path="/admin" component={Admin} />
+        <Header />
         <div className="container">
-          <Header />
 
           <Route path="/" exact>
             <h1>
@@ -23,9 +29,8 @@ class App extends Component {
           <Route path="/register" component={Register} />
           <Route path="/payment_confirmation" component={Payment} />
           <Route path="/status" component={Status} />
-          
+
         </div>
-        {/* <Route path="/create" component={CreateTodo} /> */}
       </Router>
     );
   }

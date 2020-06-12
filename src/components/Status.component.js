@@ -7,8 +7,10 @@ export default class Check extends Component {
     return (
       <div>
         <h1>ตรวจสอบสถานะการจอง</h1>
-        <input type="text" name="status" placeholder="Phone No." />
-        <input type="submit" />
+        <form action="">
+          <input type="text" name="status" placeholder="Phone No." />
+          <input type="submit" value="ตกลง"/>
+        </form>
 
         <Link to="/">
           <Button name="กลับหน้าหลัก" class="btn" />

@@ -11,8 +11,10 @@ export default class Payment extends Component {
     return (
       <div>
         <h1>ส่งหลักฐานการชำระเงิน</h1>
-        <input type="file" name="file" onChange={this.onChangeHandler} />
-        <input type="submit"/>
+        <form action="">
+          <input type="file" name="file" onChange={this.onChangeHandler} />
+          <input type="submit" value="ตกลง"/>
+        </form>
 
         <Link to="/">
             <Button name="กลับหน้าหลัก" class="btn" />
