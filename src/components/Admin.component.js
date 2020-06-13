@@ -48,6 +48,30 @@ export default class Home extends Component {
               <th>Amount</th>
               <th>Confirmation</th>
             </tr>
+            <tr>
+              <td>Chayond Chaiyachue</td>
+              <td>ED38</td>
+              <td>2</td>
+              <td>✗</td>
+            </tr>
+            <tr>
+              <td>Kasom Suramongkol</td>
+              <td>ED58</td>
+              <td>1</td>
+              <td>✗</td>
+            </tr>
+            <tr>
+              <td>Kittikorn Saowaluk</td>
+              <td>ED28</td>
+              <td>4</td>
+              <td><a href="#">view</a></td>
+            </tr>
+            <tr>
+              <td>Bunbongkarn Lertkunakorn</td>
+              <td>ED32</td>
+              <td>1</td>
+              <td>✗</td>
+            </tr>
             {this.reservationList()}
           </table>
 
